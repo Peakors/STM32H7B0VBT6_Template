@@ -52,6 +52,8 @@ endif ()
 include_directories(
     BSP/Inc
     BSP/Src
+    Library/Inc
+    Library/Src
     Core/Inc
     Drivers/STM32H7xx_HAL_Driver/Inc
     Drivers/STM32H7xx_HAL_Driver/Inc/Legacy
@@ -61,7 +63,7 @@ include_directories(
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32H7B0xx)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*")
+file(GLOB_RECURSE SOURCES "BSP/*.*" "Library/*.*" "Core/*.*" "Drivers/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32H7B0VBTX_FLASH.ld)
 
