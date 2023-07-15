@@ -13,8 +13,12 @@
 Debug时看到该提示表示成功进入Debug模式：
 
 > Info : flash1 'win w25q64fv/jv' id = 0x1740ef size = 8192 KiB(((READY)))
+> 
 > Info : Listening on port 4444 for telnet connections
+> 
 > Info : accepting 'gdb' connection on tcp/3333
+> 
 > Info : New GDB Connection: 1, Target STM32H7B0VBT6.cpu0, state:Debugger connected to tcp:localhost:3333
 halted
+> 
 
