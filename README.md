@@ -22,3 +22,9 @@ Debug时看到该提示表示成功进入Debug模式：
 halted
 > 
 
+## 2025-07-14更新
+更新CubeMX版本6.14，更改了编译工具
+Toolchain/IDE : CMake
+Default Compiler/Linker : GCC
+
+
